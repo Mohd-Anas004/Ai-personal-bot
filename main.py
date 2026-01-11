@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain_groq import ChatGroq
-from langchain.chains import ConversationChain
-from langchain.chains.conversation.memory import ConversationBufferMemory
+from langchain_classic.chains import ConversationChain
+from langchain_classic.chains.conversation.memory import ConversationBufferMemory
 from dotenv import load_dotenv
 import os
 
@@ -88,4 +88,5 @@ with chat_container:
     for chat in st.session_state.chat_history:
         st.markdown(f"**👤 You:** {chat['user']}")
         st.info(f"**🤖 Assistant:** {chat['bot']}")
+
         st.markdown("---")
