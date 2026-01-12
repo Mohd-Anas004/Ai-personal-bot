@@ -1,6 +1,5 @@
 streamlit
-langchain==0.3.27
-langchain_core==0.3.79
-langchain_community==0.3.27
-langsmith==0.4.40
-
+langchain>=0.3.0
+langchain-groq==0.2.1
+langchain-community>=0.3.0
+python-dotenv
