@@ -123,7 +123,7 @@ if 'history' not in st.session_state:
 # --- SIDEBAR ---
 with st.sidebar:
     st.markdown("<h2 style='color:white;'>▲NIX</h2>", unsafe_allow_html=True)
-    st.caption("AI Assistant Engineered by Mohd Anas")
+    st.caption("<p style='color:#888888; font-size:1.0em;'>AI Assistant Engineered by Mohd Anas </p",unsafe_allow_html=True)
     st.markdown("---")
     st.write("🔧 **Model:** Llama 3.3")
     st.write("⚡ **Provider:** Langchain")
